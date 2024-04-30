@@ -1,9 +1,7 @@
 n = int(input())
 # First part: pyramid-like shape
 for i in range(n // 2 + 1):
-    for j in range(n // 2):
-        print(" ", end="")
-    for j in range(i):
+    for j in range(n // 2+i):
         print(" ", end="")
     for j in range(n - (2 * i)):
         print("@", end="")

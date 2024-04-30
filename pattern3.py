@@ -5,7 +5,8 @@ for i in range(n):
             print("*",end='')
         else:
             print(" ",end='')
-
+    
+    #Triangle pattern
     if (i==n//2-1) | (i==n//2+1):
         print(" *",end='')
     if i==n//2:
